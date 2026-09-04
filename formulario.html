@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Inscripción</title>
+</head>
+<body>
+<section id="Formulario">
+    <h1>Formulario de Inscripción</h1>
+</section>
+    <form action="" method="post">
+        
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" min="1"><br><br>
+
+        <label for="edad">Código de estudiante:</label><br>
+        <input type="number" id="edad" name="edad" min="1"><br><br>
+
+        <label for="carrera">Selecciona tu carrera:</label><br>
+        <select id="carrera" name="carrera" required>
+            <option value="">-- Elige una opción --</option>
+            <option value="ingenieria">Ingeniería de Sistemas</option>
+            <option value="diseno">Diseño Gráfico</option>
+            <option value="marketing">Marketing Digital</option>
+            <option value="administracion">Administración</option>
+        </select><br><br>
+
+        <input type="checkbox" id="terminos" name="terminos" required>
+        <label for="terminos">Acepto los términos y condiciones</label><br><br>
+
+        <input type="submit" value="Inscribirse">
+
+    </form>
+
+</body>
+</html>
